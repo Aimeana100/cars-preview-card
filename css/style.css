@@ -2,6 +2,10 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-size: 15px;
+    font-family: url('(https://fonts.google.com/specimen/Lexend+Deca)');
+  
+  
   }
   .main{
     height: 100vh;
@@ -33,9 +37,8 @@ body{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
   .card-container .card-item  p{
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgba(226, 233, 255, .7);
+  
+    color: hsla(0, 0%, 100%, 0.75);
     font-weight: 700;
     line-height: 1.5;
   }
@@ -44,6 +47,7 @@ body{
     padding: 10px 20px;
     border-radius: 15px;
     border: none;
+    background-color: hsl(0, 0%, 95%);
   
   }
   
@@ -60,14 +64,14 @@ body{
   
   
   .sedan{
-    background-color: rgba(243, 151, 39, 1);  
+    background-color: hsl(31, 77%, 52%)  
   }
   
   .suvs{
-    background-color: rgba(91, 140, 157, 1)
+    background-color: hsl(184, 100%, 22%)
   }
   .luxury{
-    background-color: rgba(38, 78, 73, 1);
+    background-color: hsl(179, 100%, 13%)
   }
   
   
